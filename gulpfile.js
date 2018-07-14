@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var gulp         = require("gulp"),
     sass         = require("gulp-sass"),
     plumber      = require("gulp-plumber"),
@@ -127,6 +126,3 @@ var gulp         = require("gulp"),
     gulp.task("build", function(fn) {
       sequence("style", "images", "symbols", fn);
     });
-=======
-var gulp  = require('gulp');
->>>>>>> parent of 93754f1... some savings
