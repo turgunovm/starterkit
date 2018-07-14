@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "starterkit",
   "version": "1.0.0",
@@ -35,3 +36,28 @@
     "run-sequence": "^2.2.1"
   }
 }
+=======
+{
+  "name": "starterkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turgunovm/starterkit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turgunovm/starterkit/issues"
+  },
+  "homepage": "https://github.com/turgunovm/starterkit#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
+>>>>>>> parent of 93754f1... some savings
