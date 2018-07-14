@@ -6,6 +6,7 @@ var gulp         = require("gulp"),
     server       = require("browser-sync").create(),
     reload       = server.reload,
     mqpacker     = require("css-mqpacker"),
+    rename       = require("gulp-rename");
 
 
   /* Compiling Sass files */
@@ -22,8 +23,6 @@ var gulp         = require("gulp"),
           mqpacker({ sort: true })
         ]))
         .pipe(gulp.dest("src/css"))
-        .pipe(minify())
-        .pipe(rename("main.min.css"))
         .pipe(reload({ stream: true }));
 
     });
@@ -46,3 +45,7 @@ var gulp         = require("gulp"),
       gulp.watch('src/js/**/*.js').on("change", reload);
 
     });
+
+
+  /* Defaul Gulp task */
+    gulp.task("default", ["serve"]);
